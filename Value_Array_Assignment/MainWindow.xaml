@@ -1,0 +1,22 @@
+﻿<Window x:Class="Value_Array_Assignment.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Value_Array_Assignment"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Rectangle x:Name="background" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="90" Margin="22,76,0,0" Stroke="Black" VerticalAlignment="Top" Width="742"/>
+        <TextBox x:Name="textBox0" HorizontalAlignment="Left" Height="28" Margin="43,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="28" Margin="186,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="28" Margin="331,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="28" Margin="496,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="28" Margin="640,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118"/>
+        <Label x:Name="labelType" Content="Type a value to add to the array" HorizontalAlignment="Left" Height="46" Margin="23,17,0,0" VerticalAlignment="Top" Width="358" FontSize="20"/>
+        <Button x:Name="buttonAdd" Content="Add" HorizontalAlignment="Left" Height="42" Margin="32,212,0,0" VerticalAlignment="Top" Width="114" FontSize="20" Click="buttonAdd_Click"/>
+        <Button x:Name="buttonRetrieve" Content="Retrieve" HorizontalAlignment="Left" Height="42" Margin="179,214,0,0" VerticalAlignment="Top" Width="114" FontSize="20" Click="buttonRetrieve_Click"/>
+        <Label x:Name="labelResult" Content="[Result]" HorizontalAlignment="Left" Height="88" Margin="29,306,0,0" VerticalAlignment="Top" Width="439" FontSize="20"/>
+
+    </Grid>
+</Window>
